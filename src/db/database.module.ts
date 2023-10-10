@@ -22,7 +22,7 @@ const entities = [TipoDocumentoEntity, RolesEntity, PermisosEntity, RolesPermiso
                database: name,
                entities: [...entities],
                autoLoadEntities: true,
-               // synchronize: true,
+               synchronize: true,
                // logging: true,
             }
          },
